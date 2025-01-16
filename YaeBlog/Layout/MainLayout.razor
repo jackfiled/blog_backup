@@ -1,21 +1,22 @@
 @inherits LayoutComponentBase
 
-<main class="container">
-    <div class="row" style="height: 80px">
-        <div class="px-2 col-8">
-            <a href="/" class="p-2">
-                <h4>Ricardo's Index</h4>
+<main class="container mx-auto">
+    <div class="flex flex-row h-20">
+        <div class="px-2 basis-3/4">
+            <a href="/" class="text-2xl p-2">
+                <h4 class="text-blue-600">Ricardo's Index</h4>
             </a>
+            <h1></h1>
         </div>
 
-        <div class="col-4 d-flex justify-content-around align-items-center">
-            <a href="mailto://shicangjuner@outlook.com" class="p-2" target="_blank">
-                <h5>E-mail</h5>
+        <div class="basis-1/4">
+            <a href="mailto://shicangjuner@outlook.com" class="p-2 text-xl" target="_blank">
+                <h5 class="text-blue-600">E-mail</h5>
             </a>
         </div>
     </div>
 
-    <div class="row px-4 center">
+    <div class="px-4 mx-auto">
         <div class="py-2">
             @Body
         </div>

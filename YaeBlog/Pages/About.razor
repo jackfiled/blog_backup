@@ -1,5 +1,5 @@
 @page "/blog/about"
-@using YaeBlog.Core.Models
+@using YaeBlog.Models
 
 @inject BlogOptions Options
 
@@ -116,7 +116,7 @@
                         <a href="@(link.Link)" target="_blank" class="m-3">
                             <div class="row link-item">
                                 <div class="col-4">
-                                    <Image Src="@(link.AvatarImage)" Alt="@(link.Name)" Style="border-radius: 50%"/>
+                                    @* <Image Src="@(link.AvatarImage)" Alt="@(link.Name)" Style="border-radius: 50%"/> *@
                                 </div>
 
                                 <div class="col-8">
